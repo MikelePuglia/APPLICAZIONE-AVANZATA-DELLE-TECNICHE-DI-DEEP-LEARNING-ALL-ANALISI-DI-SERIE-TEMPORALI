@@ -1,0 +1,25 @@
+# Required libraries for the project
+
+# For numerical operations and data manipulation
+numpy==1.23.5              # For numerical computations
+pandas==1.5.3              # Data manipulation and analysis
+
+# For machine learning and deep learning
+scikit-learn==1.2.0        # Machine learning algorithms and tools
+tensorflow==2.12.0         # Deep learning framework (including Keras API)
+keras==2.12.0              # Keras, high-level neural networks API (integrated with TensorFlow)
+pyts==0.12.0              # Time series transformation library (used for Gramian Angular Field)
+
+# For data visualization and plotting
+matplotlib==3.7.1          # Basic plotting and graphing
+seaborn==0.12.2            # Advanced statistical data visualization
+
+# For parallel processing and GPU acceleration
+tensorflow-gpu==2.12.0     # GPU version of TensorFlow, if using CUDA enabled GPUs
+
+# For model evaluation and metrics tracking
+scipy==1.10.0              # Scientific computation and optimization
+joblib==1.3.2              # For model serialization (saving/loading models)
+
+# For better experiment tracking and reproducibility
+mlflow==2.8.0              # Open-source platform for managing the ML lifecycle
